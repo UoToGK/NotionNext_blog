@@ -1,11 +1,11 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: 'UoToGKr', // 作者
+  AUTHOR: 'UoToGK', // 作者
   BIO: '一个普通的爬虫开发', // 作者简介
   LINK: 'https://uotogk.com', // 网站地址
   KEYWORDS: 'Notion, 博客,爬虫', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID || '5922a778adfe413098d79642db62512f', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/5922a778adfe413098d79642db62512f
+    process.env.NOTION_PAGE_ID || '5922a778adfe413098d79642db62512f', // Important 
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -17,7 +17,7 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] 
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   HOME_BANNER_IMAGE: './bg_image.jpg', // 首页背景大图，默认文件：/public/bg_image.jpg 。会被Notion中的封面图覆盖。
@@ -56,7 +56,7 @@ const BLOG = {
   CONTACT_WEIBO: 'https://github.com/UoToGK', // 你的微博个人主页
   CONTACT_TWITTER: 'https://github.com/UoToGK', // 你的twitter个人主页
   CONTACT_GITHUB: 'https://github.com/UoToGK', // 你的github个人主页
-  CONTACT_TELEGRAM: 'https://github.com/UoToGK', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_TELEGRAM: 'https://github.com/UoToGK', // 你的telegram 地址 
   CONTACT_LINKEDIN: '', // 你的linkedIn 首页
 
 
@@ -72,7 +72,7 @@ const BLOG = {
   // 评论互动 可同时开启多个支持 GISCUS CUSDIS UTTERRANCES GITALK
 
   // giscus @see https://giscus.app/
-  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || '', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
+  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || '', // 你的Github仓库名 
   COMMENT_GISCUS_REPO_ID: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO_ID || '', // 你的Github Repo ID e.g ( 設定完 giscus 即可看到 )
   COMMENT_GISCUS_CATEGORY_ID:
     process.env.NEXT_PUBLIC_COMMENT_GISCUS_CATEGORY_ID || '', // 你的Github Discussions 內的 Category ID ( 設定完 giscus 即可看到 )
