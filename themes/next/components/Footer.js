@@ -5,7 +5,7 @@ import DarkModeButton from '@/components/DarkModeButton'
 const Footer = ({ title }) => {
   const d = new Date()
   const currentYear = d.getFullYear()
-  const copyrightDate = (function() {
+  const copyrightDate = (function () {
     if (Number.isInteger(BLOG.SINCE) && BLOG.SINCE < currentYear) {
       return BLOG.SINCE + '-' + currentYear
     }
@@ -16,7 +16,7 @@ const Footer = ({ title }) => {
     <footer
       className='dark:bg-gray-900 flex-shrink-0 justify-center text-center m-auto w-full leading-6 text-sm p-6 dark:text-gray-400'
     >
-      <DarkModeButton/>
+      <DarkModeButton />
       <span>
         <i className='fas fa-copyright' /> {`${copyrightDate}`} <span className='mx-1 animate-pulse'><i className='fas fa-heart' /></span> <a href={BLOG.LINK} className='underline font-bold '>{BLOG.AUTHOR}</a>.<br />
 
@@ -28,7 +28,7 @@ const Footer = ({ title }) => {
           <i className='fas fa-users' /> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <br />
         <h1>{title}</h1>
-        <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/tangly1024/NotionNext' className='underline '>NotionNext {BLOG.VERSION}</a>.</span>
+        <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/UoToGK/NotionNext_blog' className='underline '>NotionNext {BLOG.VERSION}</a>.</span>
       </span>
     </footer>
   )
