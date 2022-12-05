@@ -5,7 +5,7 @@ const BLOG = {
   LINK: 'https://uotogk.com', // 网站地址
   KEYWORDS: 'Notion, 博客,爬虫', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID || 'be3601697798458fb2bd3251d674b1c6', // Important 
+    process.env.NOTION_PAGE_ID || '99872094be7245df8f6d0ed297c0394c', // Important 
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
